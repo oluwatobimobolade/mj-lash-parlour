@@ -1,0 +1,11 @@
+{
+  "name": "mj-lash-parlour",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/sculpture.js --bundle --minify --outfile=site/assets/sculpture.js --legal-comments=eof"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.183.2"
+  }
+}

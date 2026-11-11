@@ -1,0 +1,4 @@
+{
+  "folders": [{ "name": "MJ Lash Parlour", "path": "." }],
+  "settings": { "files.exclude": { "**/.DS_Store": true } }
+}
