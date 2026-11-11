@@ -2,7 +2,8 @@
   "name": "mj-lash-parlour",
   "private": true,
   "scripts": {
-    "build": "esbuild src/sculpture.js --bundle --minify --outfile=site/assets/sculpture.js --legal-comments=eof"
+    "build": "esbuild src/sculpture.js --bundle --minify --outfile=site/assets/sculpture.js --legal-comments=eof",
+    "deploy": "bash scripts/deploy.sh"
   },
   "devDependencies": {
     "esbuild": "0.28.2",
