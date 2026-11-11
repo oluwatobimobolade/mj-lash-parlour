@@ -1,2 +1,22 @@
+# Allow AI assistants to inspect and review pages
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Keep public search engines from indexing the staging prototype
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
 User-agent: *
 Disallow: /
