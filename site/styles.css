@@ -35,7 +35,7 @@
   --ink: #27151e;
   --muted: #624b53;
   --wine: #91214b;
-  --wine-deep: #601e3d;
+  --wine-deep: #7a2448;
   --night: #351325;
   --blush: #efd6db;
   --gold: #f4d7a7;
@@ -388,5 +388,6 @@ section[id], footer[id] { scroll-margin-top: 1rem; }
 }
 
 /* MJ’s published brand mark. Keep its original artwork intact. */
-.brand-logo { width: 132px; height: 65px; object-fit: contain; border-radius: 3px; }
-@media (max-width: 680px) { .brand-logo { width: 110px; height: 54px; } }
+.brand-logo { width: 132px; height: auto; aspect-ratio: 500 / 246; object-fit: contain; border-radius: 3px; }
+@media (max-width: 680px) { .brand-logo { width: 110px; } }
+@media (max-width: 360px) { .brand-logo { width: 96px; } }
